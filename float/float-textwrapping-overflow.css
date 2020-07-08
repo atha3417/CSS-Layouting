@@ -1,0 +1,20 @@
+/*value dari float
+none, left, right*/
+/*type float adalah out-of-flow*/
+/*cara mengatasinya ada 3 yaitu
+-menggunakan property overflow
+-menggunakan <div> kosong
+-menggunakan teknik micro clearfix*/
+
+.container {
+	width: 600px;
+	border: 1px solid black;
+	margin: auto;
+	padding: 5px;
+	overflow: auto;
+}
+
+img {
+	float: left;
+	margin: 5px;
+}

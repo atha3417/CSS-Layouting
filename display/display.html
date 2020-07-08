@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Display</title>
+	<style>
+		.navigasi {
+			background-color: lightblue;
+		}
+		.main {
+			background-color: lightgreen;
+		}
+		.main span {
+			background-color: red;
+		}
+		.copyright {
+			background-color: pink;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<h1>Selamat Datang Di Website Kami</h1>
+	</div>
+
+	<div class="navigasi">
+		<h2>Daftar Link</h2>
+	<a href="#">Link 1</a>
+	<a href="#">Link 2</a>
+	<a href="#">Link 3</a>
+	<a href="#">Link 4</a>
+	</div>
+
+	<div class="main">
+		<h2>Judul Artikel</h2>
+	<img src="for img link.jpg">
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, ut? <span>Reprehenderit rem laborum nulla, est consectetur saepe tempore autem labore esse recusandae!</span> Non sed odit voluptatibus, laboriosam quaerat molestiae repellendus.</p>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis debitis laboriosam explicabo dignissimos adipisci.</p>
+
+	</div>
+
+	<div class="copyright">
+		<p>Copyright 2015. Web Programming Unpas</p>
+	</div>
+	
+</body>
+</html>
+<!-- properti display ada 4 yaitu = 
+inline, inline-block, block, none -->
+
+<!-- 
+~inline adalah elemen HTML yang secara default tidak menambahkan baris baru ketika di buat.
+~Lebar dan Tinggi elemennya sebesar konten yang ada di dalamnya.
+~Kita tidak dapat mengatur tinggi dan lebar dari elemen inline.
+~margin dan padding hanya mempengaruhi elemen secara horizontal, tidak vertikal.
+tag html = 
+b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea, ... -->
+
+<!-- inline-block adalah 
+~tidak ada elemen yang secara default memiliki properti display: inline-block;.
+~kita harus ubah secara manual properti tersebut.
+~perilaku dasarnya sama dengan elemen line.
+~perbedaanya, elemen inline-block dapat kita atur tinggi dan lebar-nya.
+~ -->
+
+<!-- block adalah
+~elemen HTML yang secara default menambahkan baris baru ketika dibuat.
+~jika tidak diatur lebarnnya, maka lebar default dari elemen block akan memenuhi lebar dari browser / parentnya.
+~kita dapat mengatur tinggi dan lebar dari elemen block.
+~di dalam elemen block, kita dapat menyimpan tag dgn elemen inline, inline-block, atau bahkan block lagi. -->
+<!-- elemen block yaitu = 
+h1-h6, p, ol, ul, li, form, hr, div, ... -->
+
+<!-- none adalah
+~digunakan untuk menghilangkan sebuah elemen -->
